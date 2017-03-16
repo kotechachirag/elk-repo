@@ -1,0 +1,850 @@
+2017-03-10 02:05:59.797  INFO 8508 --- [main] com.example.ElkdemoApplication           : Starting ElkdemoApplication on ABIRVVMA037CD with PID 8508 (C:\git-workspace\elkdemo\target\classes started by kchirag in C:\git-workspace\elkdemo)
+2017-03-10 02:05:59.802  INFO 8508 --- [main] com.example.ElkdemoApplication           : No active profile set, falling back to default profiles: default
+2017-03-10 02:05:59.907  INFO 8508 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@691a7f8f: startup date [Fri Mar 10 02:05:59 PST 2017]; root of context hierarchy
+2017-03-10 02:06:01.895  INFO 8508 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$725246e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-10 02:06:02.705  INFO 8508 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-10 02:06:02.747  INFO 8508 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-10 02:06:02.751  INFO 8508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-10 02:06:03.262  INFO 8508 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-10 02:06:03.262  INFO 8508 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3359 ms
+2017-03-10 02:06:03.457  INFO 8508 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-10 02:06:03.463  INFO 8508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-10 02:06:03.464  INFO 8508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-10 02:06:03.464  INFO 8508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-10 02:06:03.464  INFO 8508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-10 02:06:03.530  WARN 8508 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2017-03-10 02:06:03.534  INFO 8508 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-03-10 02:06:03.554  INFO 8508 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-03-10 02:06:03.559 ERROR 8508 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2017-03-10 02:51:21.125  INFO 9620 --- [main] com.example.ElkdemoApplicationTests      : Starting ElkdemoApplicationTests on ABIRVVMA037CD with PID 9620 (started by kchirag in C:\git-workspace\elkdemo)
+2017-03-10 02:51:21.129  INFO 9620 --- [main] com.example.ElkdemoApplicationTests      : No active profile set, falling back to default profiles: default
+2017-03-10 02:51:21.211  INFO 9620 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@385e9564: startup date [Fri Mar 10 02:51:21 PST 2017]; root of context hierarchy
+2017-03-10 02:51:22.404  INFO 9620 --- [main] com.example.ElkdemoApplicationTests      : Started ElkdemoApplicationTests in 2.156 seconds (JVM running for 4.116)
+2017-03-10 02:51:22.594  INFO 9620 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@385e9564: startup date [Fri Mar 10 02:51:21 PST 2017]; root of context hierarchy
+2017-03-10 03:28:50.386  INFO 4752 --- [main] com.example.ElkdemoApplication           : Starting ElkdemoApplication on ABIRVVMA037CD with PID 4752 (C:\git-workspace\elkdemo\target\classes started by kchirag in C:\git-workspace\elkdemo)
+2017-03-10 03:28:50.397  INFO 4752 --- [main] com.example.ElkdemoApplication           : No active profile set, falling back to default profiles: default
+2017-03-10 03:28:50.566  INFO 4752 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3c0a50da: startup date [Fri Mar 10 03:28:50 PST 2017]; root of context hierarchy
+2017-03-10 03:28:52.250  INFO 4752 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-10 03:28:52.287  INFO 4752 --- [main] com.example.ElkdemoApplication           : Started ElkdemoApplication in 2.704 seconds (JVM running for 4.729)
+2017-03-10 03:28:52.293  INFO 4752 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3c0a50da: startup date [Fri Mar 10 03:28:50 PST 2017]; root of context hierarchy
+2017-03-10 03:28:52.297  INFO 4752 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-03-10 09:17:09.344  INFO 6612 --- [main] com.example.ElkdemoApplication           : Starting ElkdemoApplication on ABIRVVMA037CD with PID 6612 (C:\git-workspace\elkdemo\target\classes started by kchirag in C:\git-workspace\elkdemo)
+2017-03-10 09:17:09.354  INFO 6612 --- [main] com.example.ElkdemoApplication           : No active profile set, falling back to default profiles: default
+2017-03-10 09:17:09.517  INFO 6612 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Fri Mar 10 09:17:09 PST 2017]; root of context hierarchy
+2017-03-10 09:17:12.124  INFO 6612 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-10 09:17:12.154  INFO 6612 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-10 09:17:12.156  INFO 6612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-10 09:17:12.621  INFO 6612 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-10 09:17:12.621  INFO 6612 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3115 ms
+2017-03-10 09:17:12.847  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-10 09:17:12.853  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-10 09:17:12.855  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-10 09:17:12.855  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-10 09:17:12.856  INFO 6612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-10 09:17:13.347  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Fri Mar 10 09:17:09 PST 2017]; root of context hierarchy
+2017-03-10 09:17:13.476  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[application/json]}" onto public java.util.List<java.lang.String> com.example.Greeter.index()
+2017-03-10 09:17:13.481  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-10 09:17:13.482  INFO 6612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-10 09:17:13.537  INFO 6612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-10 09:17:13.538  INFO 6612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-10 09:17:13.595  INFO 6612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-10 09:17:15.598  INFO 6612 --- [main] org.elasticsearch.node                   : [Louise Mason] version[2.4.4], pid[6612], build[fcbb46d/2017-01-03T11:33:16Z]
+2017-03-10 09:17:15.600  INFO 6612 --- [main] org.elasticsearch.node                   : [Louise Mason] initializing ...
+2017-03-10 09:17:15.614  INFO 6612 --- [main] org.elasticsearch.plugins                : [Louise Mason] modules [], plugins [], sites []
+2017-03-10 09:17:15.714  INFO 6612 --- [main] org.elasticsearch.env                    : [Louise Mason] using [1] data paths, mounts [[(C:)]], net usable_space [70.7gb], net total_space [119.8gb], spins? [unknown], types [NTFS]
+2017-03-10 09:17:15.715  INFO 6612 --- [main] org.elasticsearch.env                    : [Louise Mason] heap size [2.6gb], compressed ordinary object pointers [true]
+2017-03-10 09:17:20.353  WARN 6612 --- [main] org.elasticsearch.bootstrap              : JNA not found. native methods will be disabled.
+
+java.lang.ClassNotFoundException: com.sun.jna.Native
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_101]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_101]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_101]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_101]
+	at org.elasticsearch.bootstrap.Natives.<clinit>(Natives.java:45) ~[elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.bootstrap.BootstrapInfo.isMemoryLocked(BootstrapInfo.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessProbe.processInfo(ProcessProbe.java:130) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessService.<init>(ProcessService.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.8.0_101]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [na:1.8.0_101]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.8.0_101]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [na:1.8.0_101]
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:50) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:201) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:879) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:213) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:140) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.node(NodeBuilder.java:150) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createNodeClient(ElasticsearchAutoConfiguration.java:107) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createClient(ElasticsearchAutoConfiguration.java:95) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.elasticsearchClient(ElasticsearchAutoConfiguration.java:84) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$cb372e2e.CGLIB$elasticsearchClient$1(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$cb372e2e$$FastClassBySpringCGLIB$$eebdd9cf.invoke(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$cb372e2e.elasticsearchClient(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at com.example.ElkdemoApplication.main(ElkdemoApplication.java:10) [classes/:na]
+
+2017-03-10 09:17:21.920  INFO 6612 --- [main] org.elasticsearch.node                   : [Louise Mason] initialized
+2017-03-10 09:17:21.921  INFO 6612 --- [main] org.elasticsearch.node                   : [Louise Mason] starting ...
+2017-03-10 09:17:21.929  INFO 6612 --- [main] org.elasticsearch.transport              : [Louise Mason] publish_address {local[1]}, bound_addresses {local[1]}
+2017-03-10 09:17:21.939  INFO 6612 --- [main] org.elasticsearch.discovery              : [Louise Mason] elasticsearch/rrGKGVRWQumQcx_BjJSPSQ
+2017-03-10 09:17:21.966  INFO 6612 --- [elasticsearch[Louise Mason][clusterService#updateTask][T#1]] org.elasticsearch.cluster.service        : [Louise Mason] new_master {Louise Mason}{rrGKGVRWQumQcx_BjJSPSQ}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2017-03-10 09:17:21.985  INFO 6612 --- [main] org.elasticsearch.node                   : [Louise Mason] started
+2017-03-10 09:17:22.495  INFO 6612 --- [elasticsearch[Louise Mason][clusterService#updateTask][T#1]] org.elasticsearch.gateway                : [Louise Mason] recovered [0] indices into cluster_state
+2017-03-10 09:17:22.596  INFO 6612 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-10 09:17:22.843  INFO 6612 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-03-10 09:17:22.854  INFO 6612 --- [main] com.example.ElkdemoApplication           : Started ElkdemoApplication in 14.494 seconds (JVM running for 16.354)
+2017-03-10 09:17:45.305  INFO 6612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-10 09:17:45.306  INFO 6612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-10 09:17:45.359  INFO 6612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+2017-03-13 02:26:35.718  INFO 6612 --- [RMI TCP Connection(2)-10.18.34.190] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-03-13 02:26:35.719  INFO 6612 --- [RMI TCP Connection(2)-10.18.34.190] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Fri Mar 10 09:17:09 PST 2017]; root of context hierarchy
+2017-03-13 02:26:35.723  INFO 6612 --- [RMI TCP Connection(2)-10.18.34.190] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2017-03-13 02:26:35.723  INFO 6612 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Louise Mason] stopping ...
+2017-03-13 02:26:35.726  INFO 6612 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Louise Mason] stopped
+2017-03-13 02:26:35.726  INFO 6612 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Louise Mason] closing ...
+2017-03-13 02:26:35.754  INFO 6612 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Louise Mason] closed
+2017-03-13 02:26:35.755  INFO 6612 --- [RMI TCP Connection(2)-10.18.34.190] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-03-13 02:28:56.436  INFO 8344 --- [main] com.example.ElkdemoApplication           : Starting ElkdemoApplication on ABIRVVMA037CD with PID 8344 (C:\git-workspace\elkdemo\target\classes started by kchirag in C:\git-workspace\elkdemo)
+2017-03-13 02:28:56.446  INFO 8344 --- [main] com.example.ElkdemoApplication           : No active profile set, falling back to default profiles: default
+2017-03-13 02:28:56.622  INFO 8344 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:28:56 PDT 2017]; root of context hierarchy
+2017-03-13 02:28:58.728  INFO 8344 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-13 02:28:58.744  INFO 8344 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-13 02:28:58.745  INFO 8344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-13 02:28:58.930  INFO 8344 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-13 02:28:58.931  INFO 8344 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2318 ms
+2017-03-13 02:28:59.131  INFO 8344 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-13 02:28:59.136  INFO 8344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-13 02:28:59.137  INFO 8344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-13 02:28:59.137  INFO 8344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-13 02:28:59.138  INFO 8344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-13 02:28:59.632  INFO 8344 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:28:56 PDT 2017]; root of context hierarchy
+2017-03-13 02:28:59.746  INFO 8344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[application/json]}" onto public java.util.List<java.lang.String> com.example.Greeter.index()
+2017-03-13 02:28:59.752  INFO 8344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-13 02:28:59.753  INFO 8344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-13 02:28:59.800  INFO 8344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 02:28:59.801  INFO 8344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 02:28:59.855  INFO 8344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 02:29:01.564  INFO 8344 --- [main] org.elasticsearch.node                   : [Gaea] version[2.4.4], pid[8344], build[fcbb46d/2017-01-03T11:33:16Z]
+2017-03-13 02:29:01.696  INFO 8344 --- [main] org.elasticsearch.node                   : [Gaea] initializing ...
+2017-03-13 02:29:01.708  INFO 8344 --- [main] org.elasticsearch.plugins                : [Gaea] modules [], plugins [], sites []
+2017-03-13 02:29:01.768  INFO 8344 --- [main] org.elasticsearch.env                    : [Gaea] using [1] data paths, mounts [[(C:)]], net usable_space [70.2gb], net total_space [119.8gb], spins? [unknown], types [NTFS]
+2017-03-13 02:29:01.769  INFO 8344 --- [main] org.elasticsearch.env                    : [Gaea] heap size [2.6gb], compressed ordinary object pointers [true]
+2017-03-13 02:29:06.626  WARN 8344 --- [main] org.elasticsearch.bootstrap              : JNA not found. native methods will be disabled.
+
+java.lang.ClassNotFoundException: com.sun.jna.Native
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_101]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_101]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_101]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_101]
+	at org.elasticsearch.bootstrap.Natives.<clinit>(Natives.java:45) ~[elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.bootstrap.BootstrapInfo.isMemoryLocked(BootstrapInfo.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessProbe.processInfo(ProcessProbe.java:130) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessService.<init>(ProcessService.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.8.0_101]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [na:1.8.0_101]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.8.0_101]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [na:1.8.0_101]
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:50) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:201) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:879) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:213) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:140) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.node(NodeBuilder.java:150) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createNodeClient(ElasticsearchAutoConfiguration.java:107) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createClient(ElasticsearchAutoConfiguration.java:95) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.elasticsearchClient(ElasticsearchAutoConfiguration.java:84) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$a5478781.CGLIB$elasticsearchClient$1(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$a5478781$$FastClassBySpringCGLIB$$d439fc55.invoke(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$a5478781.elasticsearchClient(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at com.example.ElkdemoApplication.main(ElkdemoApplication.java:10) [classes/:na]
+
+2017-03-13 02:29:08.070  INFO 8344 --- [main] org.elasticsearch.node                   : [Gaea] initialized
+2017-03-13 02:29:08.071  INFO 8344 --- [main] org.elasticsearch.node                   : [Gaea] starting ...
+2017-03-13 02:29:08.080  INFO 8344 --- [main] org.elasticsearch.transport              : [Gaea] publish_address {local[1]}, bound_addresses {local[1]}
+2017-03-13 02:29:08.089  INFO 8344 --- [main] org.elasticsearch.discovery              : [Gaea] elasticsearch/IZTqIfJPRlCL_eoIPejpFw
+2017-03-13 02:29:08.114  INFO 8344 --- [elasticsearch[Gaea][clusterService#updateTask][T#1]] org.elasticsearch.cluster.service        : [Gaea] new_master {Gaea}{IZTqIfJPRlCL_eoIPejpFw}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2017-03-13 02:29:08.134  INFO 8344 --- [main] org.elasticsearch.node                   : [Gaea] started
+2017-03-13 02:29:09.013  INFO 8344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-13 02:29:09.086  INFO 8344 --- [elasticsearch[Gaea][clusterService#updateTask][T#1]] org.elasticsearch.gateway                : [Gaea] recovered [0] indices into cluster_state
+2017-03-13 02:29:09.141  INFO 8344 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-03-13 02:29:09.147  INFO 8344 --- [main] com.example.ElkdemoApplication           : Started ElkdemoApplication in 13.7 seconds (JVM running for 15.169)
+2017-03-13 02:29:21.982  INFO 8344 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-13 02:29:21.983  INFO 8344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-13 02:29:22.033  INFO 8344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+2017-03-13 02:33:08.769  INFO 8344 --- [RMI TCP Connection(2)-10.18.34.190] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-03-13 02:33:08.770  INFO 8344 --- [RMI TCP Connection(2)-10.18.34.190] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:28:56 PDT 2017]; root of context hierarchy
+2017-03-13 02:33:08.776  INFO 8344 --- [RMI TCP Connection(2)-10.18.34.190] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2017-03-13 02:33:08.777  INFO 8344 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Gaea] stopping ...
+2017-03-13 02:33:08.782  INFO 8344 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Gaea] stopped
+2017-03-13 02:33:08.783  INFO 8344 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Gaea] closing ...
+2017-03-13 02:33:08.798  INFO 8344 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Gaea] closed
+2017-03-13 02:33:08.799  INFO 8344 --- [RMI TCP Connection(2)-10.18.34.190] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-03-13 02:33:14.151  INFO 11900 --- [main] com.example.ElkdemoApplication           : Starting ElkdemoApplication on ABIRVVMA037CD with PID 11900 (C:\git-workspace\elkdemo\target\classes started by kchirag in C:\git-workspace\elkdemo)
+2017-03-13 02:33:14.156  INFO 11900 --- [main] com.example.ElkdemoApplication           : No active profile set, falling back to default profiles: default
+2017-03-13 02:33:14.241  INFO 11900 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:33:14 PDT 2017]; root of context hierarchy
+2017-03-13 02:33:17.114  INFO 11900 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-13 02:33:17.139  INFO 11900 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-13 02:33:17.141  INFO 11900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-13 02:33:17.327  INFO 11900 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-13 02:33:17.327  INFO 11900 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3090 ms
+2017-03-13 02:33:17.559  INFO 11900 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-13 02:33:17.565  INFO 11900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-13 02:33:17.566  INFO 11900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-13 02:33:17.566  INFO 11900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-13 02:33:17.566  INFO 11900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-13 02:33:18.280  INFO 11900 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:33:14 PDT 2017]; root of context hierarchy
+2017-03-13 02:33:18.437  INFO 11900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[application/json]}" onto public java.util.List<java.lang.String> com.example.Greeter.index()
+2017-03-13 02:33:18.438  INFO 11900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],produces=[application/json]}" onto public java.util.List<java.lang.String> com.example.Greeter.indexTest() throws java.lang.Exception
+2017-03-13 02:33:18.442  INFO 11900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-13 02:33:18.443  INFO 11900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-13 02:33:18.489  INFO 11900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 02:33:18.489  INFO 11900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 02:33:18.551  INFO 11900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 02:33:20.294  INFO 11900 --- [main] org.elasticsearch.node                   : [Sangre] version[2.4.4], pid[11900], build[fcbb46d/2017-01-03T11:33:16Z]
+2017-03-13 02:33:20.307  INFO 11900 --- [main] org.elasticsearch.node                   : [Sangre] initializing ...
+2017-03-13 02:33:20.327  INFO 11900 --- [main] org.elasticsearch.plugins                : [Sangre] modules [], plugins [], sites []
+2017-03-13 02:33:20.392  INFO 11900 --- [main] org.elasticsearch.env                    : [Sangre] using [1] data paths, mounts [[(C:)]], net usable_space [70.2gb], net total_space [119.8gb], spins? [unknown], types [NTFS]
+2017-03-13 02:33:20.393  INFO 11900 --- [main] org.elasticsearch.env                    : [Sangre] heap size [2.6gb], compressed ordinary object pointers [true]
+2017-03-13 02:33:24.356  WARN 11900 --- [main] org.elasticsearch.bootstrap              : JNA not found. native methods will be disabled.
+
+java.lang.ClassNotFoundException: com.sun.jna.Native
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_101]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_101]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_101]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_101]
+	at org.elasticsearch.bootstrap.Natives.<clinit>(Natives.java:45) ~[elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.bootstrap.BootstrapInfo.isMemoryLocked(BootstrapInfo.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessProbe.processInfo(ProcessProbe.java:130) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessService.<init>(ProcessService.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.8.0_101]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [na:1.8.0_101]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.8.0_101]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [na:1.8.0_101]
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:50) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:201) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:879) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:213) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:140) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.node(NodeBuilder.java:150) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createNodeClient(ElasticsearchAutoConfiguration.java:107) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createClient(ElasticsearchAutoConfiguration.java:95) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.elasticsearchClient(ElasticsearchAutoConfiguration.java:84) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$29b0fd46.CGLIB$elasticsearchClient$1(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$29b0fd46$$FastClassBySpringCGLIB$$e3ad85fb.invoke(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$29b0fd46.elasticsearchClient(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at com.example.ElkdemoApplication.main(ElkdemoApplication.java:10) [classes/:na]
+
+2017-03-13 02:33:25.981  INFO 11900 --- [main] org.elasticsearch.node                   : [Sangre] initialized
+2017-03-13 02:33:25.982  INFO 11900 --- [main] org.elasticsearch.node                   : [Sangre] starting ...
+2017-03-13 02:33:25.991  INFO 11900 --- [main] org.elasticsearch.transport              : [Sangre] publish_address {local[1]}, bound_addresses {local[1]}
+2017-03-13 02:33:26.000  INFO 11900 --- [main] org.elasticsearch.discovery              : [Sangre] elasticsearch/a9zR3SbzRxC4Y9ap3E10TQ
+2017-03-13 02:33:26.025  INFO 11900 --- [elasticsearch[Sangre][clusterService#updateTask][T#1]] org.elasticsearch.cluster.service        : [Sangre] new_master {Sangre}{a9zR3SbzRxC4Y9ap3E10TQ}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2017-03-13 02:33:26.048  INFO 11900 --- [main] org.elasticsearch.node                   : [Sangre] started
+2017-03-13 02:33:26.820  INFO 11900 --- [elasticsearch[Sangre][clusterService#updateTask][T#1]] org.elasticsearch.gateway                : [Sangre] recovered [0] indices into cluster_state
+2017-03-13 02:33:26.979  INFO 11900 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-13 02:33:27.137  INFO 11900 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-03-13 02:33:27.150  INFO 11900 --- [main] com.example.ElkdemoApplication           : Started ElkdemoApplication in 13.597 seconds (JVM running for 15.443)
+2017-03-13 02:42:38.663  INFO 11900 --- [RMI TCP Connection(2)-10.18.34.190] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-03-13 02:42:38.665  INFO 11900 --- [RMI TCP Connection(2)-10.18.34.190] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:33:14 PDT 2017]; root of context hierarchy
+2017-03-13 02:42:38.670  INFO 11900 --- [RMI TCP Connection(2)-10.18.34.190] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2017-03-13 02:42:38.671  INFO 11900 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Sangre] stopping ...
+2017-03-13 02:42:38.676  INFO 11900 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Sangre] stopped
+2017-03-13 02:42:38.676  INFO 11900 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Sangre] closing ...
+2017-03-13 02:42:38.691  INFO 11900 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Sangre] closed
+2017-03-13 02:42:38.693  INFO 11900 --- [RMI TCP Connection(2)-10.18.34.190] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-03-13 02:42:44.443  INFO 7636 --- [main] com.example.ElkdemoApplication           : Starting ElkdemoApplication on ABIRVVMA037CD with PID 7636 (C:\git-workspace\elkdemo\target\classes started by kchirag in C:\git-workspace\elkdemo)
+2017-03-13 02:42:44.452  INFO 7636 --- [main] com.example.ElkdemoApplication           : No active profile set, falling back to default profiles: default
+2017-03-13 02:42:44.659  INFO 7636 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:42:44 PDT 2017]; root of context hierarchy
+2017-03-13 02:42:46.890  INFO 7636 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-13 02:42:46.908  INFO 7636 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-13 02:42:46.910  INFO 7636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-13 02:42:47.052  INFO 7636 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-13 02:42:47.053  INFO 7636 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2405 ms
+2017-03-13 02:42:47.265  INFO 7636 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-13 02:42:47.270  INFO 7636 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-13 02:42:47.271  INFO 7636 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-13 02:42:47.271  INFO 7636 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-13 02:42:47.271  INFO 7636 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-13 02:42:47.372  WARN 7636 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'greeter': Unsatisfied dependency expressed through field 'log'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-03-13 02:42:47.376  INFO 7636 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-03-13 02:42:47.405  INFO 7636 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-03-13 02:42:47.522 ERROR 7636 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field log in com.example.Greeter required a bean of type 'org.slf4j.Logger' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2017-03-13 02:45:05.043  INFO 10316 --- [main] com.example.ElkdemoApplication           : Starting ElkdemoApplication on ABIRVVMA037CD with PID 10316 (C:\git-workspace\elkdemo\target\classes started by kchirag in C:\git-workspace\elkdemo)
+2017-03-13 02:45:05.048  INFO 10316 --- [main] com.example.ElkdemoApplication           : No active profile set, falling back to default profiles: default
+2017-03-13 02:45:05.138  INFO 10316 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:45:05 PDT 2017]; root of context hierarchy
+2017-03-13 02:45:07.037  INFO 10316 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-13 02:45:07.061  INFO 10316 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-13 02:45:07.063  INFO 10316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-13 02:45:07.369  INFO 10316 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-13 02:45:07.370  INFO 10316 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2235 ms
+2017-03-13 02:45:07.572  INFO 10316 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-13 02:45:07.577  INFO 10316 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-13 02:45:07.578  INFO 10316 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-13 02:45:07.579  INFO 10316 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-13 02:45:07.579  INFO 10316 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-13 02:45:08.043  INFO 10316 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:45:05 PDT 2017]; root of context hierarchy
+2017-03-13 02:45:08.149  INFO 10316 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[application/json]}" onto public java.util.List<java.lang.String> com.example.Greeter.index()
+2017-03-13 02:45:08.151  INFO 10316 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],produces=[application/json]}" onto public java.util.List<java.lang.String> com.example.Greeter.indexTest() throws java.lang.Exception
+2017-03-13 02:45:08.155  INFO 10316 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-13 02:45:08.155  INFO 10316 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-13 02:45:08.199  INFO 10316 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 02:45:08.199  INFO 10316 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 02:45:08.269  INFO 10316 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 02:45:09.832  INFO 10316 --- [main] org.elasticsearch.node                   : [Smasher] version[2.4.4], pid[10316], build[fcbb46d/2017-01-03T11:33:16Z]
+2017-03-13 02:45:09.833  INFO 10316 --- [main] org.elasticsearch.node                   : [Smasher] initializing ...
+2017-03-13 02:45:09.841  INFO 10316 --- [main] org.elasticsearch.plugins                : [Smasher] modules [], plugins [], sites []
+2017-03-13 02:45:09.876  INFO 10316 --- [main] org.elasticsearch.env                    : [Smasher] using [1] data paths, mounts [[(C:)]], net usable_space [70.2gb], net total_space [119.8gb], spins? [unknown], types [NTFS]
+2017-03-13 02:45:09.876  INFO 10316 --- [main] org.elasticsearch.env                    : [Smasher] heap size [2.6gb], compressed ordinary object pointers [true]
+2017-03-13 02:45:11.723  WARN 10316 --- [main] org.elasticsearch.bootstrap              : JNA not found. native methods will be disabled.
+
+java.lang.ClassNotFoundException: com.sun.jna.Native
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_101]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_101]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_101]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_101]
+	at org.elasticsearch.bootstrap.Natives.<clinit>(Natives.java:45) ~[elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.bootstrap.BootstrapInfo.isMemoryLocked(BootstrapInfo.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessProbe.processInfo(ProcessProbe.java:130) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessService.<init>(ProcessService.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.8.0_101]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [na:1.8.0_101]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.8.0_101]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [na:1.8.0_101]
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:50) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:201) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:879) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:213) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:140) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.node(NodeBuilder.java:150) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createNodeClient(ElasticsearchAutoConfiguration.java:107) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createClient(ElasticsearchAutoConfiguration.java:95) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.elasticsearchClient(ElasticsearchAutoConfiguration.java:84) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$1a5bfe34.CGLIB$elasticsearchClient$1(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$1a5bfe34$$FastClassBySpringCGLIB$$75bc2223.invoke(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$1a5bfe34.elasticsearchClient(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at com.example.ElkdemoApplication.main(ElkdemoApplication.java:10) [classes/:na]
+
+2017-03-13 02:45:12.474  INFO 10316 --- [main] org.elasticsearch.node                   : [Smasher] initialized
+2017-03-13 02:45:12.474  INFO 10316 --- [main] org.elasticsearch.node                   : [Smasher] starting ...
+2017-03-13 02:45:12.478  INFO 10316 --- [main] org.elasticsearch.transport              : [Smasher] publish_address {local[1]}, bound_addresses {local[1]}
+2017-03-13 02:45:12.483  INFO 10316 --- [main] org.elasticsearch.discovery              : [Smasher] elasticsearch/Av5oPnGVQMm3dUENEMGZTA
+2017-03-13 02:45:12.494  INFO 10316 --- [elasticsearch[Smasher][clusterService#updateTask][T#1]] org.elasticsearch.cluster.service        : [Smasher] new_master {Smasher}{Av5oPnGVQMm3dUENEMGZTA}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2017-03-13 02:45:12.504  INFO 10316 --- [main] org.elasticsearch.node                   : [Smasher] started
+2017-03-13 02:45:12.615  INFO 10316 --- [elasticsearch[Smasher][clusterService#updateTask][T#1]] org.elasticsearch.gateway                : [Smasher] recovered [0] indices into cluster_state
+2017-03-13 02:45:12.777  INFO 10316 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-13 02:45:12.861  INFO 10316 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-03-13 02:45:12.867  INFO 10316 --- [main] com.example.ElkdemoApplication           : Started ElkdemoApplication in 8.269 seconds (JVM running for 9.103)
+2017-03-13 02:45:20.349  INFO 10316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-13 02:45:20.351  INFO 10316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-13 02:45:20.406  INFO 10316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+2017-03-13 02:45:25.279  INFO 10316 --- [http-nio-8080-exec-2] com.example.Greeter                      : Exception thrown from indexTest method
+2017-03-13 02:45:25.294 ERROR 10316 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: Test Exception] with root cause
+
+java.lang.Exception: Test Exception
+	at com.example.Greeter.indexTest(Greeter.java:37) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_101]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2017-03-13 09:32:38.143  INFO 10316 --- [RMI TCP Connection(2)-10.18.34.190] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-03-13 09:32:38.143  INFO 10316 --- [RMI TCP Connection(2)-10.18.34.190] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 02:45:05 PDT 2017]; root of context hierarchy
+2017-03-13 09:32:38.147  INFO 10316 --- [RMI TCP Connection(2)-10.18.34.190] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2017-03-13 09:32:38.149  INFO 10316 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Smasher] stopping ...
+2017-03-13 09:32:38.152  INFO 10316 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Smasher] stopped
+2017-03-13 09:32:38.154  INFO 10316 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Smasher] closing ...
+2017-03-13 09:32:38.163  INFO 10316 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Smasher] closed
+2017-03-13 09:32:38.163  INFO 10316 --- [RMI TCP Connection(2)-10.18.34.190] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-03-13 09:32:43.437  INFO 10160 --- [main] com.example.ElkdemoApplication           : Starting ElkdemoApplication on ABIRVVMA037CD with PID 10160 (C:\git-workspace\elkdemo\target\classes started by kchirag in C:\git-workspace\elkdemo)
+2017-03-13 09:32:43.446  INFO 10160 --- [main] com.example.ElkdemoApplication           : No active profile set, falling back to default profiles: default
+2017-03-13 09:32:43.715  INFO 10160 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 09:32:43 PDT 2017]; root of context hierarchy
+2017-03-13 09:32:46.404  INFO 10160 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-03-13 09:32:46.436  INFO 10160 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-13 09:32:46.439  INFO 10160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-03-13 09:32:46.726  INFO 10160 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-13 09:32:46.727  INFO 10160 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3023 ms
+2017-03-13 09:32:47.044  INFO 10160 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-13 09:32:47.052  INFO 10160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-13 09:32:47.053  INFO 10160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-13 09:32:47.054  INFO 10160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-13 09:32:47.054  INFO 10160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-13 09:32:47.653  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 09:32:43 PDT 2017]; root of context hierarchy
+2017-03-13 09:32:47.765  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[application/json]}" onto public java.util.List<java.lang.String> com.example.Greeter.index()
+2017-03-13 09:32:47.767  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],produces=[application/json]}" onto public java.util.List<java.lang.String> com.example.Greeter.indexTest() throws java.lang.Exception
+2017-03-13 09:32:47.768  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{param}],methods=[POST]}" onto public void com.example.Greeter.displayParam(java.lang.String)
+2017-03-13 09:32:47.772  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-13 09:32:47.773  INFO 10160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-13 09:32:47.828  INFO 10160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 09:32:47.829  INFO 10160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 09:32:47.915  INFO 10160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-13 09:32:49.618  INFO 10160 --- [main] org.elasticsearch.node                   : [Honcho] version[2.4.4], pid[10160], build[fcbb46d/2017-01-03T11:33:16Z]
+2017-03-13 09:32:49.619  INFO 10160 --- [main] org.elasticsearch.node                   : [Honcho] initializing ...
+2017-03-13 09:32:49.634  INFO 10160 --- [main] org.elasticsearch.plugins                : [Honcho] modules [], plugins [], sites []
+2017-03-13 09:32:49.709  INFO 10160 --- [main] org.elasticsearch.env                    : [Honcho] using [1] data paths, mounts [[(C:)]], net usable_space [70.2gb], net total_space [119.8gb], spins? [unknown], types [NTFS]
+2017-03-13 09:32:49.709  INFO 10160 --- [main] org.elasticsearch.env                    : [Honcho] heap size [2.6gb], compressed ordinary object pointers [true]
+2017-03-13 09:32:53.800  WARN 10160 --- [main] org.elasticsearch.bootstrap              : JNA not found. native methods will be disabled.
+
+java.lang.ClassNotFoundException: com.sun.jna.Native
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_101]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_101]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_101]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_101]
+	at org.elasticsearch.bootstrap.Natives.<clinit>(Natives.java:45) ~[elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.bootstrap.BootstrapInfo.isMemoryLocked(BootstrapInfo.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessProbe.processInfo(ProcessProbe.java:130) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.monitor.process.ProcessService.<init>(ProcessService.java:44) [elasticsearch-2.4.4.jar:2.4.4]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.8.0_101]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [na:1.8.0_101]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.8.0_101]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [na:1.8.0_101]
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:50) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:104) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:47) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:886) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:43) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:59) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:201) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:879) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:46) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:213) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.Node.<init>(Node.java:140) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.elasticsearch.node.NodeBuilder.node(NodeBuilder.java:150) [elasticsearch-2.4.4.jar:2.4.4]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createNodeClient(ElasticsearchAutoConfiguration.java:107) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.createClient(ElasticsearchAutoConfiguration.java:95) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.elasticsearchClient(ElasticsearchAutoConfiguration.java:84) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$fba39b1f.CGLIB$elasticsearchClient$1(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$fba39b1f$$FastClassBySpringCGLIB$$74ab1232.invoke(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$fba39b1f.elasticsearchClient(<generated>) [spring-boot-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) [spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at com.example.ElkdemoApplication.main(ElkdemoApplication.java:10) [classes/:na]
+
+2017-03-13 09:32:55.402  INFO 10160 --- [main] org.elasticsearch.node                   : [Honcho] initialized
+2017-03-13 09:32:55.403  INFO 10160 --- [main] org.elasticsearch.node                   : [Honcho] starting ...
+2017-03-13 09:32:55.412  INFO 10160 --- [main] org.elasticsearch.transport              : [Honcho] publish_address {local[1]}, bound_addresses {local[1]}
+2017-03-13 09:32:55.456  INFO 10160 --- [main] org.elasticsearch.discovery              : [Honcho] elasticsearch/NR7exmzVRQ-7V5NkaAIVhQ
+2017-03-13 09:32:55.498  INFO 10160 --- [elasticsearch[Honcho][clusterService#updateTask][T#1]] org.elasticsearch.cluster.service        : [Honcho] new_master {Honcho}{NR7exmzVRQ-7V5NkaAIVhQ}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2017-03-13 09:32:55.518  INFO 10160 --- [main] org.elasticsearch.node                   : [Honcho] started
+2017-03-13 09:32:55.973  INFO 10160 --- [elasticsearch[Honcho][clusterService#updateTask][T#1]] org.elasticsearch.gateway                : [Honcho] recovered [0] indices into cluster_state
+2017-03-13 09:32:56.118  INFO 10160 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-13 09:32:56.225  INFO 10160 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-03-13 09:32:56.231  INFO 10160 --- [main] com.example.ElkdemoApplication           : Started ElkdemoApplication in 13.666 seconds (JVM running for 15.567)
+2017-03-13 09:33:19.982  INFO 10160 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-13 09:33:19.983  INFO 10160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-13 09:33:20.034  INFO 10160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
+2017-03-13 09:33:26.448  WARN 10160 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2017-03-13 09:33:34.919  INFO 10160 --- [http-nio-8080-exec-3] com.example.Greeter                      : Exception thrown from indexTest method
+2017-03-13 09:33:34.934 ERROR 10160 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: Test Exception] with root cause
+
+java.lang.Exception: Test Exception
+	at com.example.Greeter.indexTest(Greeter.java:39) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_101]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2017-03-14 03:57:29.541  INFO 10160 --- [RMI TCP Connection(2)-10.18.34.190] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-03-14 03:57:29.542  INFO 10160 --- [RMI TCP Connection(2)-10.18.34.190] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78b1cc93: startup date [Mon Mar 13 09:32:43 PDT 2017]; root of context hierarchy
+2017-03-14 03:57:29.549  INFO 10160 --- [RMI TCP Connection(2)-10.18.34.190] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2017-03-14 03:57:29.550  INFO 10160 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Honcho] stopping ...
+2017-03-14 03:57:29.556  INFO 10160 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Honcho] stopped
+2017-03-14 03:57:29.557  INFO 10160 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Honcho] closing ...
+2017-03-14 03:57:29.577  INFO 10160 --- [RMI TCP Connection(2)-10.18.34.190] org.elasticsearch.node                   : [Honcho] closed
+2017-03-14 03:57:29.579  INFO 10160 --- [RMI TCP Connection(2)-10.18.34.190] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
